@@ -13,6 +13,8 @@
 		6D0BE58F215E07D000717D9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D0BE58E215E07D000717D9D /* Assets.xcassets */; };
 		6D0BE592215E07D000717D9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D0BE590215E07D000717D9D /* LaunchScreen.storyboard */; };
 		6D0BE595215E07D000717D9D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D0BE594215E07D000717D9D /* main.m */; };
+		6D0BE59D215E07E600717D9D /* PiesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D0BE59C215E07E600717D9D /* PiesView.m */; };
+		6D0BE5A0215E09EA00717D9D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D0BE59F215E09EA00717D9D /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		6D0BE591215E07D000717D9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6D0BE593215E07D000717D9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6D0BE594215E07D000717D9D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6D0BE59B215E07E600717D9D /* PiesView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PiesView.h; sourceTree = "<group>"; };
+		6D0BE59C215E07E600717D9D /* PiesView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PiesView.m; sourceTree = "<group>"; };
+		6D0BE59F215E09EA00717D9D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D0BE5A0215E09EA00717D9D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +50,7 @@
 			children = (
 				6D0BE584215E07CF00717D9D /* PiesView */,
 				6D0BE583215E07CF00717D9D /* Products */,
+				6D0BE59E215E09E900717D9D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +69,8 @@
 				6D0BE586215E07CF00717D9D /* AppDelegate.m */,
 				6D0BE588215E07CF00717D9D /* ViewController.h */,
 				6D0BE589215E07CF00717D9D /* ViewController.m */,
+				6D0BE59B215E07E600717D9D /* PiesView.h */,
+				6D0BE59C215E07E600717D9D /* PiesView.m */,
 				6D0BE58B215E07CF00717D9D /* Main.storyboard */,
 				6D0BE58E215E07D000717D9D /* Assets.xcassets */,
 				6D0BE590215E07D000717D9D /* LaunchScreen.storyboard */,
@@ -69,6 +78,14 @@
 				6D0BE594215E07D000717D9D /* main.m */,
 			);
 			path = PiesView;
+			sourceTree = "<group>";
+		};
+		6D0BE59E215E09E900717D9D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6D0BE59F215E09EA00717D9D /* Foundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,6 +159,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6D0BE58A215E07CF00717D9D /* ViewController.m in Sources */,
+				6D0BE59D215E07E600717D9D /* PiesView.m in Sources */,
 				6D0BE595215E07D000717D9D /* main.m in Sources */,
 				6D0BE587215E07CF00717D9D /* AppDelegate.m in Sources */,
 			);

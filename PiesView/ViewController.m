@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "PiesView.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    PiesView *piesView = [[PiesView alloc] initWithFrame:CGRectMake(0, 0, 300, 300)];
+    piesView.center = self.view.center;
+    piesView.backgroundColor = [UIColor lightGrayColor];
+    [self.view addSubview:piesView];
+    
 }
 
 
